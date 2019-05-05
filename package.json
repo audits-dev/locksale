@@ -1,0 +1,23 @@
+{
+  "name": "@audits/locksale",
+  "version": "1.0.0",
+  "description": "A smart contract for timelock ICOs",
+  "scripts": {
+    "test": "truffle test --network test"
+  },
+  "author": "Thomas Hodges (thomas@audits.dev)",
+  "license": "MIT",
+  "homepage": "https://audits.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audits-dev/locksale.git"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0"
+  },
+  "devDependencies": {
+    "@audits/truffle-test-generator": "^1.0.1",
+    "chai": "^4.2.0",
+    "openzeppelin-test-helpers": "^0.3.2"
+  }
+}
